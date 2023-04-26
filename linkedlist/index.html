@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Linked List Operations</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Linked List Operations</h1>
+    <div class="container">
+      <form>
+        <h2>Create Node</h2>
+        <label for="value">Enter node value:</label>
+        <input type="text" id="value" name="value">
+        <button type="button" onclick="createNode()">Create</button>
+      </form>
+      <form>
+        <h2>Insert Node</h2>
+        <label for="position">Enter position:</label>
+        <input type="text" id="position" name="position">
+        <label for="value">Enter node value:</label>
+        <input type="text" id="value" name="value">
+        <button type="button" onclick="insertNode()">Insert</button>
+      </form>
+      <form>
+        <h2>Delete Node</h2>
+        <label for="position">Enter position:</label>
+        <input type="text" id="position" name="position">
+        <button type="button" onclick="deleteNode()">Delete</button>
+      </form>
+      <div id="list">
+        <!-- Linked list visualization will be created dynamically here -->
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

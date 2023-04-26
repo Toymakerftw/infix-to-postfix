@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Queue Operations</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="app">
+      <h1>Queue Operations</h1>
+      <form>
+        <label for="queue-input">Add Item:</label>
+        <input type="text" id="queue-input">
+        <button type="button" onclick="enqueue()">Enqueue</button>
+      </form>
+      <div class="queue">
+        <h2>LIFO Queue</h2>
+        <div id="lifo-queue" class="queue-items"></div>
+      </div>
+      <div class="queue">
+        <h2>FIFO Queue</h2>
+        <div id="fifo-queue" class="queue-items"></div>
+      </div>
+      <button type="button" onclick="dequeueLifo()">Dequeue LIFO</button>
+      <button type="button" onclick="dequeueFifo()">Dequeue FIFO</button>
+      <button type="button" onclick="clearQueue()">Clear</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

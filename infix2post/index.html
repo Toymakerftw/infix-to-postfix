@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Infix to Postfix Converter</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+  <div id="container" class="container">
+    <h1>Infix to Postfix Converter</h1>
+    <div class="input-container">
+      <label for="infix">Enter infix expression:</label>
+      <input type="text" id="infix">
+      <button onclick="convert()">Convert</button>
+    </div>
+    <div class="output-container">
+      <label for="postfix">Postfix expression:</label>
+      <div id="postfix-container"></div>
+    </div>
+    <div id="opcontainer" class="opcontainer">
+        <div id="stack-containerdiv" class="stack-container">
+            <label>Stack:</label>
+            <div id="stack-container"></div>
+        </div>
+        <div id="steps-containerdiv" class="steps-container">
+            <label>Steps:</label>
+            <div id="steps-container"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+/* Add some custom styling for the page */
+body {
+	background-color: #f2f2f2;
+	font-family: Arial, sans-serif;
+}
+h1 {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.card-header {
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+.card-body {
+	font-size: 0.9rem;
+	height: 200px; /* Add fixed height */
+	display: flex;
+	flex-direction: column; /* Align content in columns */
+}
+.card-body p {
+	flex-grow: 1; /* Allow paragraph to expand to fill space */
+}
+.card-body a {
+	color: #007bff;
+	font-weight: bold;
+}
+.card-body a:hover {
+	text-decoration: none;
+}
+.card {
+	/* Add margin bottom for spacing between cards */
+	margin: 5px;
+}
+
+footer {
+    margin-top: 5px;
+	background-color: #333;
+	color: #fff;
+	padding: 30px 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;  
+}
